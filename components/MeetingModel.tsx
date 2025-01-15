@@ -15,7 +15,6 @@ interface MeetingModalProps {
   buttonText?: string;
   instantMeeting?: boolean;
   image?: string;
-  buttonClassName?: string;
   buttonIcon?: string;
 }
 
@@ -29,7 +28,7 @@ const MeetingModal = ({
   buttonText,
   instantMeeting,
   image,
-  buttonClassName,
+  ,
   buttonIcon,
 }: MeetingModalProps) => {
   return (
