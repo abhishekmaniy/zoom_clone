@@ -1,6 +1,4 @@
 import MeetingTypeList from '@/components/MeetingTypeList'
-import Navbar from '@/components/Navbar'
-import React from 'react'
 
 const Home = () => {
   const now = new Date()

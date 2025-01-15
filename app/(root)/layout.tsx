@@ -1,7 +1,7 @@
 import { Toaster } from '@/components/ui/toaster'
 import StreamVideoProvider from '@/providers/StreamClientProvider'
 import { Metadata } from 'next'
-import React, { ReactNode } from 'react'
+import { ReactNode } from 'react'
 
 export const metadata: Metadata = {
   title: 'YOOM',

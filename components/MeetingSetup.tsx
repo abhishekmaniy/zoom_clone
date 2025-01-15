@@ -5,8 +5,7 @@ import {
   useCall,
   VideoPreview
 } from '@stream-io/video-react-sdk'
-import { Input } from 'postcss'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Button } from './ui/button'
 
 const MeetingSetup = ({

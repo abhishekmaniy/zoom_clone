@@ -1,8 +1,8 @@
 'use client'
 
-import { ReactNode, useEffect, useState } from 'react'
-import { StreamVideoClient, StreamVideo } from '@stream-io/video-react-sdk'
 import { useUser } from '@clerk/nextjs'
+import { StreamVideo, StreamVideoClient } from '@stream-io/video-react-sdk'
+import { ReactNode, useEffect, useState } from 'react'
 
 import { tokenProvider } from '@/actions/stream.action'
 import Loader from '@/components/Loader'
