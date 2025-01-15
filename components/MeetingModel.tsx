@@ -1,9 +1,9 @@
 "use client";
-import { ReactNode } from "react";
-import { Dialog, DialogContent } from "./ui/dialog";
 import { cn } from "@/lib/utils";
-import { Button } from "./ui/button";
 import Image from "next/image";
+import { ReactNode } from "react";
+import { Button } from "./ui/button";
+import { Dialog, DialogContent } from "./ui/dialog";
 
 interface MeetingModalProps {
   isOpen: boolean;
@@ -26,9 +26,7 @@ const MeetingModal = ({
   children,
   handleClick,
   buttonText,
-  instantMeeting,
   image,
-  ,
   buttonIcon,
 }: MeetingModalProps) => {
   return (
